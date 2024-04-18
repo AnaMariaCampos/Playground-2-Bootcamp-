@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hotel-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.hotel-item {
+    padding: 32px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    max-width: 1360px;
+    align-items: center;
+}
+
+.responsive {
+    max-width: 100px;
+}
+
+.item-name {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    display: inline;
+    font-weight: bold;
+}
+
+.item-description {
+    width: 200px;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: block;
+    
+}
+
+.contacto {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.score {
+    color: #000000;
+    background-color: transparent;
+    align-self: center;
+}
